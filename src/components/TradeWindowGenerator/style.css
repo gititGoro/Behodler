@@ -1,0 +1,23 @@
+.tradeWindowGenForm {
+	display: flex;
+}
+
+.tradeWindowGenForm .tradeWindowGen {
+	display: grid;
+	grid-template-rows: 1fr 1fr;
+}
+
+.tradeWindowGen .header {
+	grid-row: span 1;
+}
+
+.tradeWindowGen .controls {
+	display: grid;
+	grid-template-columns: 2fr 2fr 1fr;
+	grid-gap: 3rem;
+	grid-row: span 1;
+}
+
+.tradeWindowGen .selectorCell {
+	grid-column: span 1;
+}
