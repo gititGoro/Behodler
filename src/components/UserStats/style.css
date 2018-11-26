@@ -1,0 +1,32 @@
+#userStatsRoot {
+	display: grid;
+	grid-template-columns: repeat(12 fr);
+	grid-template-rows: repeat(8);
+	grid-auto-rows: 50px;
+	width:100%;
+	border:1px solid red;
+}
+
+#userStatsRoot .statsHeading {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	border:1px solid blue;
+}
+
+#userStatsRoot .quickBox{
+	grid-column-start: 11;
+	grid-column-end: 13;
+	grid-row-start: 1;
+	grid-row-end: 5;
+	border:1px solid orange;
+}
+
+#userStatsRoot .statsRows{
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 3;
+	grid-row-end: 9;
+	border:1px solid green;
+}

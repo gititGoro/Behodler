@@ -31,7 +31,7 @@ class tradeWindowGenerator extends React.Component<ITradeWindowGenProps, any>{
 						<div className="controls">
 							<div className="selectorCell">
 								<div>Horizontal</div>
-								<FormControl className={classes.formControl}>
+								<FormControl className={classes.formControl} color="primary">
 									<Select>
 										<MenuItem value={1}>Eth</MenuItem>
 										<MenuItem value={2}>ANT</MenuItem>
